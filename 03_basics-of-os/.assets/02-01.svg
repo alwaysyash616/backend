@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+<title id="t">Apps, OS, and Processor with 1 Core</title>
+<desc id="d">Microsoft Excel, Microsoft Word, and Visual Studio Code applications on the left, an operating system in the center, and a processor with one core on the right.</desc>
+<defs>
+  <linearGradient id="cpu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b1a1c"/><stop offset="1" stop-color="#160f10"/></linearGradient>
+  <pattern id="hatch" patternUnits="userSpaceOnUse" width="12" height="12" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#6b454b" stroke-opacity=".28" stroke-width="3"/></pattern>
+  <style>
+    .label{font-family:"Comic Sans MS","Segoe Print","Bradley Hand",cursive,sans-serif;font-weight:600}
+    .app{font-size:36px;fill:#222}
+    .cpuText{font-size:32px;fill:#222}
+  </style>
+</defs>
+
+<!-- Excel -->
+<g transform="translate(48 44)">
+  <rect x="38" width="58" height="78" rx="7" fill="#21a366"/>
+  <rect y="20" width="64" height="64" rx="12" fill="#2e8b57"/>
+  <rect x="10" y="30" width="46" height="46" rx="10" fill="#eef8f0"/>
+  <path d="M18 41l10 11-10 13h8l8-10 8 10h8L40 52l10-11h-8l-8 9-7-9z" fill="#1b5e3b"/>
+  <g fill="none" stroke="#d7f0df" stroke-width="3"><path d="M48 9h38M48 27h38M48 45h38M48 63h38"/><path d="M60 3v74M78 3v74"/></g>
+</g>
+
+<!-- Word -->
+<g transform="translate(48 200)">
+  <rect x="38" width="58" height="78" rx="7" fill="#2b78c5"/>
+  <rect y="20" width="64" height="64" rx="12" fill="#4d94dc"/>
+  <rect x="10" y="30" width="46" height="46" rx="10" fill="#eef6ff"/>
+  <path d="M17 42h7l6 16 6-16h7l-8 22h-7z" fill="#2d6db0"/>
+  <g fill="none" stroke="#dceeff" stroke-width="3"><path d="M48 9h38M48 27h38M48 45h38M48 63h38"/><path d="M60 3v74M78 3v74"/></g>
+</g>
+
+<!-- VS Code -->
+<g transform="translate(42 360)">
+  <path d="M22 25L50 0l38 14v68L50 96 22 71 8 79 0 70l26-22L0 26l8-9z" fill="#2aa6de"/>
+  <path d="M50 0v96l38-14V14z" fill="#3aa8de"/>
+  <path d="M26 48L50 70l22-14v20L50 96 22 71 8 79 0 70z" fill="#dff4ff"/>
+  <path d="M26 48L50 26l22 13V20L50 0 22 25 8 17 0 26z" fill="#dff4ff"/>
+</g>
+<text x="42" y="555" class="label app">Apps</text>
+
+<!-- OS -->
+<g transform="translate(336 226)">
+  <rect width="62" height="62" fill="#ff5f63"/><rect x="78" width="62" height="62" fill="#21a65a"/>
+  <rect y="78" width="62" height="62" fill="#667ff4"/><rect x="78" y="78" width="62" height="62" fill="#ae6a00"/>
+  <rect x="-8" y="162" width="156" height="54" rx="27" fill="#f4f4f4"/>
+  <text x="70" y="201" text-anchor="middle" class="label cpuText">OS</text>
+</g>
+
+<!-- Processor -->
+<rect x="760" y="70" width="360" height="410" rx="38" fill="url(#cpu)" stroke="#b8b8b8" stroke-width="3"/>
+<rect x="760" y="70" width="360" height="410" rx="38" fill="url(#hatch)"/>
+
+<!-- Single core chip -->
+<g transform="translate(940 240)">
+  <rect x="-50" y="-34" width="100" height="68" rx="6" fill="#f1f1f1" stroke="#bdbdbd" stroke-width="2"/>
+  <rect x="-38" y="-25" width="76" height="50" rx="3" fill="#2f2f2f"/>
+  <g stroke="#f2f2f2" stroke-width="3"><path d="M-38-18H38M-38-6H38M-38 6H38M-38 18H38"/></g>
+  <g stroke="#ddd" stroke-width="4">
+    <path d="M-58-24h8M-58-12h8M-58 0h8M-58 12h8M50-24h8M50-12h8M50 0h8M50 12h8"/>
+    <path d="M-24-42v8M-12-42v8M0-42v8M12-42v8M-24 34v8M-12 34v8M0 34v8M12 34v8"/>
+  </g>
+</g>
+
+<rect x="710" y="525" width="460" height="64" rx="22" fill="#f4f4f4"/>
+<text x="940" y="568" text-anchor="middle" class="label cpuText">Processor with 1 Core</text>
+</svg>

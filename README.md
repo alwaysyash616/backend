@@ -17,7 +17,7 @@ This repository documents that journey as it develops.
 | **Sections** | 24 currently |
 | **Instructor** | Anurag Singh |
 | **Documentation** | Notes, implementations, experiments & exploration |
-| **Last Updated** | — |
+| **Last Updated** | 27 Aug 2026 |
 
 > **Note:** This is an independent personal learning repository maintained by me while following the *Complete Backend with Node.js* batch. It is not an official repository of ProCodrr or the instructor.
 
@@ -95,8 +95,8 @@ The roadmap below keeps the batch journey visible without reproducing the entire
 
 | # | batch Section | Status | Completed |
 |---:|---|---|---|
-| **01** | [Introduction to Backend and Node.js](./01_introduction-to-backend-and-node.js) |🟢 Completed | — |
-| **02** | [Basics of Terminal](./02_basics-of-terminal) |🟢 Completed | — |
+| **01** | [Introduction to Backend and Node.js](./01_introduction-to-backend-and-node.js) |🟢 Completed | 24 Aug 2026 |
+| **02** | [Basics of Terminal](./02_basics-of-terminal) |🟢 Completed | 25 Aug 2026 |
 | **03** | [Basics of OS](./03_basics-of-os) |🔄 In Progress |  — |
 | **04** | [Fundamentals of Node.js](./04_fundamentals-of-node.js) |⏳ Not Started |  — |
 | **05** | [Data Representation in Computing](./05_data-representation-in-computing) |⏳ Not Started |  — |
